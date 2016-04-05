@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Container from '../../shared/Container';
 import Heading from '../../shared/Heading';
-import PlaygroundEditor from './PlaygroundEditor';
+import RainforestEditor from './SimpleHashtagEditor';
 import NavBar from '../../shared/NavBar';
 import Separator from '../../shared/Separator';
 
@@ -15,7 +15,7 @@ export default class App extends Component {
           <Heading level={ 2 }>Development Playground</Heading>
         </Container>
         <Container>
-          <PlaygroundEditor />
+          <RainforestEditor />
         </Container>
       </div>
 
